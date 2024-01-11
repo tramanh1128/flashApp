@@ -205,8 +205,8 @@ function Home() {
             <div 
               style={{
                 borderRadius: "30px",
-                width: '500px',
-                height: '350px',
+                width: '400px',
+                height: '250px',
                 backgroundColor: "#FFE8E8",
                 padding: '10px',
                 margin: '0 auto',
@@ -220,8 +220,8 @@ function Home() {
                 style={{
                   transform: currentFlashcard.flipped ? 'rotateY(180deg)' : 'rotateY(0deg)',
                   fontSize: '30px',
-                  width: '500px',
-                  height: '350px'
+                  width: '400px',
+                  height: '250px'
                 }}
                 className='d-flex justify-content-center align-items-center'
               >
@@ -229,9 +229,9 @@ function Home() {
               </div>
             </div>
             <div className='d-flex justify-content-center'>
-              <div><button id="pinkBtn" onClick={backFlashcard}>Back</button></div>
-              <div><button id="pinkBtn" onClick={nextFlashcard}>Next</button></div>
-              <div><button id="pinkBtn" onClick={closeModal}>Close</button></div>
+              <div><button id="pinkBtn2" onClick={backFlashcard}>Back</button></div>
+              <div><button id="pinkBtn2" onClick={nextFlashcard}>Next</button></div>
+              <div><button id="pinkBtn2" onClick={closeModal}>Close</button></div>
             </div>
           </div>
         );
