@@ -150,7 +150,7 @@ function Home() {
           <div class={`collapse ${selectedFolder === index ? 'show' : ''}`} id={`collapse-${index}`}>
             <div class="button-container row">
               <button class="btn btn-primary col" id="pinkBtn2"  data-bs-toggle="modal" data-bs-target="#myModal" onClick={printFlashcardsInFolder}>
-                edit
+                Edit
               </button>
 
               <button id="pinkBtn2" type="button" className="btn btn-primary col" onClick={startLearning} data-bs-toggle="modalLearn" data-bs-target="#myModalLearn">
